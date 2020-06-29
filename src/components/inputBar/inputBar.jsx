@@ -23,7 +23,7 @@ export default function inputBar(props) {
         onClick={() => props.addHandler(newitem)}
         className="inputBar__btn"
       >
-        aadd
+        ADD
       </button>
     </div>
   );

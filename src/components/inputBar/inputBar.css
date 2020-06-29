@@ -1,21 +1,28 @@
 textarea {
-    resize: none;
-    display: block;
-    border: 1px solid gray;
-    border-radius: 5px;
+  resize: none;
+  display: block;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 .inputBar {
-    justify-content: center;
+  justify-content: center;
 }
 .inputBar__btn {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 90px;
+}
+.inputBar__btn:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 .wrapper__inputBar {
-    display: grid;
-    margin: 20px auto;
-    position: relative;
-    width: 500px;
-    height: 200px;
+  display: grid;
+  margin: 20px auto;
+  position: relative;
+  width: 500px;
+  height: 200px;
 }
