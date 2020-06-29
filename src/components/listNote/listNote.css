@@ -1,0 +1,45 @@
+.card {
+  /* width: 250px; */
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: yellow;
+  font-size: 12px;
+  height: auto;
+  padding: 5px;
+}
+.card__title {
+  padding-bottom: 5px;
+  color: gray;
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-auto-flow: row;
+}
+.os-enter {
+  opacity: 0;
+}
+
+.os-enter-active {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+/*.os-enter-done {*/
+/*  transform: translateX(0);*/
+/*}*/
+
+.os-exit {
+  opacity: 1;
+}
+
+.os-exit-active {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.os-exit-done {
+  opacity: 0;
+}

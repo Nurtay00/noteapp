@@ -1,0 +1,21 @@
+textarea {
+    resize: none;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.inputBar {
+    justify-content: center;
+}
+.inputBar__btn {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.wrapper__inputBar {
+    display: grid;
+    margin: 20px auto;
+    position: relative;
+    width: 500px;
+    height: 200px;
+}
